@@ -1,0 +1,15 @@
+﻿Build started 8/11/2013 3:10:49 PM.
+     1>Project "C:\Users\Tim\Desktop\CS148\assignment5\ProgrammableShading\ProgrammableShading.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\Tim\Desktop\CS148\assignment5\ProgrammableShading\/../libst/include /IC:\Users\Tim\Desktop\CS148\assignment5\ProgrammableShading\/../libst/ext/glew/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tim\Desktop\CS148\assignment5\ProgrammableShading\Debug\ProgrammableShading.exe" /INCREMENTAL /NOLOGO /LIBPATH:../libst/lib/Debug/ /LIBPATH:../libst/ext/vc2008/lib/Debug/ libpng.lib jpeg.lib zlib.lib freetype231.lib glew.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Tim\Desktop\CS148\assignment5\ProgrammableShading\Debug\ProgrammableShading.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Tim\Desktop\CS148\assignment5\ProgrammableShading\Debug\ProgrammableShading.lib" /MACHINE:X86 /SAFESEH Debug\main.obj
+         C:\Users\Tim\Desktop\CS148\assignment5\libst\lib\Debug\libst.lib
+     1>main.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+         ProgrammableShading.vcxproj -> C:\Users\Tim\Desktop\CS148\assignment5\ProgrammableShading\Debug\ProgrammableShading.exe
+     1>Done Building Project "C:\Users\Tim\Desktop\CS148\assignment5\ProgrammableShading\ProgrammableShading.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:05.26

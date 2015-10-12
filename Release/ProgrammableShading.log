@@ -1,0 +1,29 @@
+﻿Build started 8/13/2013 1:54:02 AM.
+     1>Project "C:\Users\Tim\Desktop\CS148\assignment6\RayTracer\ProgrammableShading.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\Users\Tim\Desktop\CS148\assignment6\RayTracer\/../libst/include /IC:\Users\Tim\Desktop\CS148\assignment6\RayTracer\/../libst/ext/glew/include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt Camera.cpp
+         Camera.cpp
+     1>Camera.cpp(33): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>Camera.cpp(40): warning C4018: '<' : signed/unsigned mismatch
+     1>Camera.cpp(63): warning C4305: 'initializing' : truncation from 'int' to 'float'
+     1>Camera.cpp(66): warning C4018: '<' : signed/unsigned mismatch
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Tim\Desktop\CS148\assignment6\RayTracer\Release\RayTracer.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:../libst/lib/Release/ /LIBPATH:../libst/ext/vc2008/lib/Release/ libpng.lib jpeg.lib zlib.lib freetype231.lib glew.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Tim\Desktop\CS148\assignment6\RayTracer\Release\RayTracer.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Tim\Desktop\CS148\assignment6\RayTracer\Release\RayTracer.lib" /MACHINE:X86 /SAFESEH Release\Camera.obj
+         Release\ImagePlane.obj
+         Release\Intersection.obj
+         Release\Light.obj
+         Release\main.obj
+         Release\Material.obj
+         Release\Ray.obj
+         Release\Scene.obj
+         Release\SceneObject.obj
+         Release\Shape.obj
+         C:\Users\Tim\Desktop\CS148\assignment6\libst\lib\Release\libst.lib
+         Generating code
+         Finished generating code
+         ProgrammableShading.vcxproj -> C:\Users\Tim\Desktop\CS148\assignment6\RayTracer\Release\RayTracer.exe
+     1>Done Building Project "C:\Users\Tim\Desktop\CS148\assignment6\RayTracer\ProgrammableShading.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.49
